@@ -44,6 +44,7 @@ header{
     margin: 0;
     padding: 0;
     height: auto;
+    font-family: fantasy;
 }
 /* Style the header links*/
 .header a {
