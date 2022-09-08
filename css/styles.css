@@ -8,6 +8,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+/*styles heading*/
 h1{
     color:black;
     font-family:fantasy;
@@ -15,14 +16,15 @@ h1{
     text-shadow: grey;
     font-weight: 100;
 }
-
+/*defines height on page*/
 body{
     height: 1500px;
 }
+/*styles border of elements*/
 .border{
     border: 0.5px solid rgb(0, 0, 0);                                  
 }
-
+/* styles logo*/
 img{
     margin-top: -70px;
     margin-right: 1500px;
@@ -30,7 +32,7 @@ img{
     width: 140px;
     position: sticky;
 }   
-
+/*defines height of header and footer*/
 header, footer{
     height: 60px
 }
@@ -48,42 +50,36 @@ header{
 }
 /* Style the header links*/
 .header a {
-    float: left;
     color: black;
     text-align: center;
     padding: 12px;
     text-decoration: none;
     font-size: 18px
   }
+/*styles footer*/ 
 footer{
     background-color: #ffc0cb ;
     height: 200px;
-
 }
+/*styles background image in element*/
 article{
     height: 800px;
     width: 100%;
     background-image: url("/img/mainpage.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-
-    
+    background-repeat: no-repeat;  
 }      
 section{
     background-color: #0000ff;
     height: 300px;
 }
-
-
 .float-left{
     float: left;
 }
 .clearfix{
     clear: both;
 }
-
-
 li{
     display: inline-block;
     font-size: 50px;
@@ -93,15 +89,6 @@ nav ul a {
     padding: 20px 50px;
     text-decoration: none;
   }
-a:link{
-    text-decoration: none;
-}
-a:visited {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: none;
-} 
 a:focus{
     color: red;
     font-weight: 600;
@@ -109,10 +96,8 @@ a:focus{
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
-  overflow: hidden;
-  
+  overflow: hidden; 
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
   color: #f2f2f2;
@@ -133,6 +118,7 @@ a:focus{
   background-color: #04AA6D;
   color: white;
 }
+/*button creation*/
 .button {
     margin-left: 40%;
     margin-top: 300px;
