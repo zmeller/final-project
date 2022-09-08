@@ -132,3 +132,12 @@ a:focus{
     border-radius: 6px;
     outline: none;
   }
+  /*style facebook icon*/
+  .fa-facebook{
+    color: white;
+    background-color: blue;
+  }
+  /*styling all icons*/
+.fa-brands{
+    font-size: 100px;
+}
