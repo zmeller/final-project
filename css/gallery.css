@@ -15,23 +15,33 @@ h1{
     font-size: 50px;
     text-shadow: grey;
     font-weight: 100;
+    text-align: center;
+}
+/*styles heading*/
+h4{
+  color:#F535AA;
+  font-family:serif;
+  font-size: 50px;
+  text-shadow: grey;
+  font-weight: 100;
+  text-align: center;
 }
 /*defines height on page*/
 body{
-    height: 1000px;
-    background-color: rgb(213, 205, 205);
+    height: 2000px;
+    background-color: #5f5c5c;
 }
 /*styles border of elements*/
 .border{
-    border: 0.5px solid #000000;                                  
+    border: 0.5px solid rgb(0, 0, 0);                                  
 }
 /* styles logo*/
-img{
-  margin-top: -150px;
-  margin-right: 1500px;
-  height: 120px;
-  width: 140px;
-  position: sticky;
+.img1{
+    margin-top: -150px;
+    margin-right: 1500px;
+    height: 120px;
+    width: 140px;
+    position: sticky;
 }   
 /*defines height of header and footer*/
 header{
@@ -49,16 +59,52 @@ header{
     height: auto;
     font-family: fantasy;
 }
+
 /* Style the header links*/
 .header a {
-    color: #333;
+    color: black;
     text-align: center;
     padding: 12px;
     text-decoration: none;
     font-size: 18px
   }
 /*styles background image in element*/
-     
+article{
+  height:1000px;
+  width:500px;
+  padding:10px;
+}      
+img{
+	height: 400px;
+	margin: 5px;
+	transition: transform 1s;
+	border: 1px ;
+
+}
+img:hover {
+	transform: scale(1.1);
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container {
+  background-color:#5f5c5c;
+  width:1500px;
+  height:4500px;
+  margin-left:auto;
+  margin-right:auto;
+       
+            }
+.float-left{
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
 li{
     display: inline-block;
     font-size: 50px;
@@ -68,7 +114,11 @@ nav ul a {
     padding: 20px 50px;
     text-decoration: none;
   }
-/* a black background color to the top navigation */
+a:focus{
+    color: red;
+    font-weight: 600;
+}
+/* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
   overflow: hidden; 
@@ -93,22 +143,20 @@ nav ul a {
   background-color: #04AA6D;
   color: white;
 }
-.my-form {
-  color: rgb(45, 71, 143);
-  font-size: 30px;
-}
-.my-form .btn-default {
-  background-color: #305896;
-  color: #fff;
-  border-radius: 0;
-}
-.my-form .btn-default:hover {
-  background-color: #129de8;
-  color: #fff;
-}
-.my-form .form-control {
-  border-radius: 0;
-}
+/*button creation*/
+.button {
+    margin-left: 40%;
+    margin-top: 300px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-emphasis-style: bold;
+    color: #ffffff;
+    background-color: #F535AA;
+    border-radius: 6px;
+    outline: none;
+  }
 .buttonfooter{
   text-align: center;
   padding: 5px 10px;
@@ -119,7 +167,9 @@ nav ul a {
   border-radius: 6px;
   outline: none;
 }
-.footer-distributed{
+
+  
+  .footer-distributed{
     background: #333;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
@@ -128,7 +178,8 @@ nav ul a {
     font: bold 16px sans-serif;
     padding: 55px 50px;
   }
-   .footer-distributed .footer-left,
+  
+  .footer-distributed .footer-left,
   .footer-distributed .footer-center,
   .footer-distributed .footer-right{
     display: inline-block;

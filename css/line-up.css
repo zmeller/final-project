@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
 *,
 *::before,
 *::after {
@@ -5,11 +8,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-body, html {
-    height: 2000px;
- 
-    
-  }
+/*styles heading*/
 h1{
     color:black;
     font-family:fantasy;
@@ -17,20 +16,24 @@ h1{
     text-shadow: grey;
     font-weight: 100;
 }
- 
+/*defines height on page*/
+body{
+    height: 1000px;
+}
+/*styles border of elements*/
 .border{
     border: 0.5px solid rgb(0, 0, 0);                                  
 }
-
+/* styles logo*/
 img{
-    margin-top: -70px;
-    margin-right: 1500px;
-    height: 120px;
-    width: 140px;
-    position: sticky;
-}   
-
-header, footer{
+  margin-top: -150px;
+  margin-right: 1500px;
+  height: 120px;
+  width: 140px;
+  position: sticky;
+}    
+/*defines height of header and footer*/
+header{
     height: 60px
 }
 /* Style the header with grey background and some padding*/
@@ -43,34 +46,26 @@ header{
     margin: 0;
     padding: 0;
     height: auto;
+    font-family: fantasy;
 }
 /* Style the header links*/
 .header a {
-    float: left;
     color: black;
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px
+    font-size: 18px;
   }
-  article{
-    background-image: url(/img/setlist.png);
-  }
-footer{
-    background-color: #ffc0cb ;
-    height: 200px;
-
-}
-
-
-.float-left{
-    float: left;
-}
-.clearfix{
-    clear: both;
-}
-
-
+/*styles background image in element*/
+article{
+  height: 550px;
+  width: 100%;
+  background-image: url("/img/setlist.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; 
+  
+}      
 li{
     display: inline-block;
     font-size: 50px;
@@ -80,26 +75,12 @@ nav ul a {
     padding: 20px 50px;
     text-decoration: none;
   }
-a:link{
-    text-decoration: none;
-}
-a:visited {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: none;
-} 
-a:focus{
-    color: red;
-    font-weight: 600;
-}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
-  overflow: hidden;
-  
+  overflow: hidden; 
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
   color: #f2f2f2;
@@ -120,8 +101,9 @@ a:focus{
   background-color: #04AA6D;
   color: white;
 }
+/*button creation*/
 .button {
-    margin-left: 45%;
+    margin-left: 40%;
     margin-top: 300px;
     display: inline-block;
     padding: 10px 20px;
@@ -133,3 +115,197 @@ a:focus{
     border-radius: 6px;
     outline: none;
   }
+.buttonfooter{
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-emphasis-style: bold;
+  color: #ffffff;
+  background-color: #F535AA;
+  border-radius: 6px;
+  outline: none;
+}
+
+  
+  .footer-distributed{
+    background: #333;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left{
+    width: 40%;
+  }
+  
+  /* The company logo */
+  
+  .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+  }
+  
+  .footer-distributed h3 span{
+    color: #F535AA;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+  }
+  
+  .footer-distributed .footer-company-name{
+    color:  #F535AA;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center{
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    font-weight:400;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+    color:  #F535AA;;
+    text-decoration: none;;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+    width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons{
+    margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  /* If you don't want the footer to be responsive, remove these media queries */
+  
+  @media (max-width: 880px) {
+  
+    .footer-distributed{
+      font: bold 14px sans-serif;
+    }
+  
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .footer-distributed .footer-center i{
+      margin-left: 0;
+    }
+  
+  }
+  
