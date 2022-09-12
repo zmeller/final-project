@@ -16,14 +16,49 @@ h1{
     text-shadow: grey;
     font-weight: 100;
 }
+h6{
+  color:#F535AA;
+  font-family:fantasy;
+  font-size: 30px;
+  text-shadow: grey;
+  font-weight: 100;
+}
 h5{
   color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
+}
+p{
+  color: white;
+  font-family: serif;
+}
+.music{
+  float: right;
+}
+
+.clock{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+.food{
+  float: right;
+}
+.camp{
+  float: right;
 }
 /*defines height on page*/
 body{
     height: 1500px;
+    
+}
+.div1 {
+  background-color: #77BFC7;
+  text-align: center;
+  font-size: 50px;
+  border: 1px solid #77BFC7;
+  height: 70px;
+  font-weight: bold;
 }
 /*styles border of elements*/
 .border{
@@ -71,12 +106,10 @@ article{
     background-repeat: no-repeat;  
 }      
 section{
-    background-color: #0000ff;
-    height: 300px;
+    background-color: #0c0c0c;
+    height: 2100px;
 }
-.float-left{
-    float: left;
-}
+
 .clearfix{
     clear: both;
 }
@@ -89,10 +122,6 @@ nav ul a {
     padding: 20px 50px;
     text-decoration: none;
   }
-a:focus{
-    color: red;
-    font-weight: 600;
-}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -143,7 +172,6 @@ a:focus{
   outline: none;
 }
 
-  
   .footer-distributed{
     background: #333;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);

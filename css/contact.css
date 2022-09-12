@@ -15,11 +15,12 @@ h1{
     font-size: 50px;
     text-shadow: grey;
     font-weight: 100;
+    text-align: center;
 }
 /*defines height on page*/
 body{
     height: 1000px;
-    background-color: rgb(213, 205, 205);
+    background-color: #d5cdcd;
 }
 /*styles border of elements*/
 .border{
@@ -93,9 +94,14 @@ nav ul a {
   background-color: #04AA6D;
   color: white;
 }
+.map{
+  margin-right: 500px;
+}
+
 .my-form {
-  color: rgb(45, 71, 143);
+  color: #2d478f;
   font-size: 30px;
+  text-align: center;
 }
 .my-form .btn-default {
   background-color: #305896;

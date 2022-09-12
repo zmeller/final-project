@@ -32,17 +32,95 @@
 
     <main>
 
+                    <!--plays audio when on home screen-->
+                   <!-- <audio controls autoplay>
+                        <source src="Dirty Heads - Cabin By the Sea (Official Music Video).ogg" type="audio/ogg">
+                        <source src="Dirty Heads - Cabin By the Sea (Official Music Video).mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                      </audio>-->
+
         <div class="article" id="article">
             <article class="border">
                 <h5>Get Your Tickets Now!</h5>
+                    <p class="clock" id="demo"></p>
+                    <script>
+                    // Set the date we're counting down to
+                    var countDownDate = new Date("Sept 24, 2022 15:37:25").getTime();
+                    
+                    // Update the count down every 1 second
+                    var x = setInterval(function() {
+                    
+                      // Get today's date and time
+                      var now = new Date().getTime();
+                        
+                      // Find the distance between now and the count down date
+                      var distance = countDownDate - now;
+                        
+                      // Time calculations for days, hours, minutes and seconds
+                      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                        
+                      // Output the result in an element with id="demo"
+                      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                      + minutes + "m " + seconds + "s ";
+                        
+                      // If the count down is over, write some text 
+                      if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("demo").innerHTML = "EXPIRED";
+                      }
+                    }, 1000);
+                    </script>
                 <!--button creation in article-->
                 <a class="button" href="https://www.ticketweb.com/event/dirty-heads-thievery-corporation-tribal-mariners-point-park-tickets/11995745">CLICK HERE FOR TICKETS</a>
             </article>
             
-        <div class="section" id="section">
-            <section class="border">
-                <h2>Section</h2>
+            <section>
+                <h6>MUSIC & ENTERTAINMENT
+                    <P> Bayfest features a summer party you won't soon forget. With 2 performance stages, 4 campground party barns, and entertainment that goes ALL NIGHT LONG, you will NOT be bored.</p>
+                </h6>
+                
+                <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/Da9Ne5CqMI0">
+                </iframe>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h6>CAMPING & PLAZAS
+                    <p> Camping at Bayfest is hardly “camping” by most definitions of the word – it’s an non-stop adventure of discovery and human connection with your fellow festival goers, and a key to the one-of-a-kind Bayfest experience.</p>
+                </h6>
+                <iframe class="camp" width="420" height="315"
+                src="https://www.youtube.com/embed/OOoZRHaR9i4">
+                </iframe>
+                <br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br>
+                <br><br>
+
+                <h6>SO MANY ACTIVITIES! 
+                    <p> So much room for activities! Whether you’re chilling out at yoga, painting water-colors with a local artist, or bringin’ the heat in the Eighth “First Annual” 5k, we’ve got what you’re looking for (and plenty of the unexpected too).</p>
+                </h6>
+            
+                <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/a6LGvPhA1lM">
+                </iframe>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h6>DROOLWORTHY FOOD
+                    <p> From mouth watering fish tacos and grass-fed beef burgers to the best damn doughnuts you've ever had (seriously), there are all sorts of food adventures throughout the festival. With plenty of vegan, vegetarian and gluten free options you WON'T be going hungry.</p>
+                </h6>
+                    <iframe class="food" width="420" height="315"
+                src="https://www.youtube.com/embed/bW8_E2GqsfQ">
+                </iframe>
+        
             </section>
+
+            </div>
         </div>
     
     </main>

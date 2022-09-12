@@ -19,6 +19,12 @@ h1{
 /*defines height on page*/
 body{
     height: 1000px;
+    background: url(/img/setlist4.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
 }
 /*styles border of elements*/
 .border{
