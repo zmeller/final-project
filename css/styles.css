@@ -32,26 +32,34 @@ p{
   color: white;
   font-family: serif;
 }
-.music{
-  float: right;
-}
 
 .clock{
   text-align: center;
   font-size: 60px;
   margin-top: 0px;
 }
-.food{
-  float: right;
-}
-.camp{
-  float: right;
-}
-/*defines height on page*/
-body{
+
+body, html{
     height: 1500px;
     
 }
+.col{
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+.row::after{
+  clear: left;
+}
+.col1{
+  width: 50%;
+  text-align: center;
+  float: right;
+}
+.row1::after{
+  clear: right;
+}
+
 .div1 {
   background-color: #77BFC7;
   text-align: center;
@@ -107,7 +115,7 @@ article{
 }      
 section{
     background-color: #0c0c0c;
-    height: 2100px;
+    height: 1700px;
 }
 
 .clearfix{
