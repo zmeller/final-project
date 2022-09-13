@@ -32,17 +32,18 @@ p{
   color: white;
   font-family: serif;
 }
-
+/*Styles countdown clock*/
 .clock{
   text-align: center;
   font-size: 60px;
   margin-top: 0px;
 }
-
+/*Defines height of page*/
 body, html{
     height: 1500px;
     
 }
+/*Styles pictures and content for festival info*/
 .col{
   width: 50%;
   text-align: center;
@@ -121,11 +122,7 @@ section{
 .clearfix{
     clear: both;
 }
-li{
-    display: inline-block;
-    font-size: 50px;
-    padding: 20px;
-}
+
 nav ul a {
     padding: 20px 50px;
     text-decoration: none;
@@ -169,6 +166,17 @@ nav ul a {
     border-radius: 6px;
     outline: none;
   }
+  /*audio creation*/
+.audio {
+  margin-left: 40%;
+  margin-top: 200px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  text-emphasis-style: bold;
+  color: #ffffff;
+ 
+}
 .buttonfooter{
   text-align: center;
   padding: 5px 10px;

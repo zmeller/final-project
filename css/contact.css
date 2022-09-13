@@ -94,14 +94,21 @@ nav ul a {
   background-color: #04AA6D;
   color: white;
 }
-.map{
-  margin-right: 500px;
+/*Defines heighth of main page*/
+.article{
+  height: 750px;
 }
-
+/*Defines size of google map*/
+.map{
+ width: 100%;
+}
+/*Styles contact form*/
 .my-form {
   color: #2d478f;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
+  font-family: serif;
+  
 }
 .my-form .btn-default {
   background-color: #305896;
@@ -115,6 +122,8 @@ nav ul a {
 .my-form .form-control {
   border-radius: 0;
 }
+/*Footer styling*/
+
 .buttonfooter{
   text-align: center;
   padding: 5px 10px;
