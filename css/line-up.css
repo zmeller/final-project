@@ -19,10 +19,7 @@ h1{
 /*defines height on page*/
 body{
     height: 1000px;
-    background: url(/img/setlist4.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url(/img/setlist4.png) no-repeat center center; 
     background-size: cover;
     
 }
@@ -290,6 +287,7 @@ nav ul a {
   
     margin-right: 3px;
     margin-bottom: 5px;
+    text-decoration: none;
   }
   
   /* If you don't want the footer to be responsive, remove these media queries */

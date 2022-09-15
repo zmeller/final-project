@@ -174,8 +174,10 @@ nav ul a {
   text-align: center;
   text-decoration: none;
   text-emphasis-style: bold;
-  color: #ffffff;
  
+}
+audio::-webkit-media-controls-panel {
+  background-color: white;
 }
 .buttonfooter{
   text-align: center;
@@ -345,6 +347,7 @@ nav ul a {
   
     margin-right: 3px;
     margin-bottom: 5px;
+    text-decoration: none;
   }
   
   /* If you don't want the footer to be responsive, remove these media queries */

@@ -290,6 +290,7 @@ nav ul a {
   
     margin-right: 3px;
     margin-bottom: 5px;
+    text-decoration: none;
   }
   
   @media (max-width: 880px) {
