@@ -114,10 +114,6 @@ nav ul a {
     padding: 20px 50px;
     text-decoration: none;
   }
-a:focus{
-    color: red;
-    font-weight: 600;
-}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -328,8 +324,6 @@ a:focus{
     margin-bottom: 5px;
     text-decoration: none;
   }
-  
-  /* If you don't want the footer to be responsive, remove these media queries */
   
   @media (max-width: 880px) {
   
