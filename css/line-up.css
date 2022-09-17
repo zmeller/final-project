@@ -19,7 +19,7 @@ h1{
 /*defines height on page*/
 body{
     height: 1000px;
-    background: url(/img/setlist4.png) no-repeat center center; 
+    background: url("/img/setlist4.png") no-repeat center center; 
     background-size: cover;
     
 }
