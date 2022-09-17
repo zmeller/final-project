@@ -109,7 +109,7 @@ header{
 article{
     height: 800px;
     width: 100%;
-    background-image: url("img/gal3.png");
+    background-image: url(gal3.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
